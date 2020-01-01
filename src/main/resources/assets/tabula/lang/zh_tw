@@ -1,0 +1,210 @@
+tabula.name=Tabula
+
+window.controls.title=控制
+window.controls.cubeName=選取方塊名稱
+window.controls.dimensions=大小
+window.controls.position=位置
+window.controls.offset=偏移
+window.controls.rotation=旋轉
+window.controls.opacity=不透明度
+window.controls.mcScale=MC比例
+window.controls.scale=自定義比例
+window.controls.txOffset=材質偏移
+window.controls.txMirror=鏡子
+window.controls.txMirrorFull=鏡像材質
+
+window.newProject.title=新建項目
+window.newProject.projIdent=項目名稱
+window.newProject.animName=作者名稱
+window.newProject.txDimensions=材質的寬度與高度
+window.newProject.projectScale=項目比例
+
+window.editProject.title=編輯項目
+
+window.modelTree.title=模型樹
+window.modelTree.newCube=新建方塊
+window.modelTree.newGroup=新建組別
+window.modelTree.delete=刪除
+window.modelTree.editMeta=編輯元數據
+
+window.texture.title=材質
+window.texture.loadTexture=開啓材質檔案
+window.texture.clearTexture=清除材質
+window.texture.listenTexture=監聽
+window.texture.listenTextureFull=監聽材質的變化 (如果材質是你的)
+window.texture.remoteTexture=材質預覽
+window.texture.noTexture=沒有材質
+
+window.import.title=匯入模型
+window.import.texture=材質
+window.import.textureFull=同步匯入材質?(如果有)
+
+window.importMC.title=匯入Minecraft模型
+window.importMC.newProject=新項目？
+window.importMC.newProjectFull=是否將模型匯入一個新項目
+
+window.loadTexture.title=載入材質
+window.loadTexture.updateTextureDimensions=更新?
+window.loadTexture.updateTextureDimensionsFull=是否更新項目的材質
+
+window.chat.title=聊天欄
+window.chat.textbox=按ENTER鍵以發送
+
+window.notSaved.title=項目未保存!!!!!!
+window.notSaved.unsaved=項目為儲存!!!!!
+window.notSaved.save=你想要在關閉前儲存嗎？
+
+window.open.title=開啓項目
+window.open.opening=開啓中...
+window.open.failed=開啓檔案失敗
+
+window.about.title=關於
+window.about.line0=模組版本：
+window.about.line1=開發者: 
+window.about.line2=材質: 
+window.about.line3=有貢獻的人: 
+window.about.line4=測試人員: 
+window.about.line5=當前語言翻譯: KK487
+window.about.line6=功能與UI基於原始的Techne(製作者: ZeuX, r4wk)
+window.about.os1=如果你有任何問題或建議,請到下方鏈接
+window.about.os2=項目開源詳見:
+
+window.animate.title=動畫
+window.animate.newAnim=新動畫
+window.animate.editAnim=編輯動畫
+window.animate.delAnim=刪除動畫
+window.animate.playAnim=播放動畫
+window.animate.stopAnim=暫停播放動畫
+window.animate.newComponent=新建組件
+window.animate.editComponent=編輯組件
+window.animate.delComponent=刪除組件
+window.animate.splitComponent=分散組件,這會重置組件哦
+window.animate.editProgComponent=編輯組件曲綫
+window.animate.selectCube=請先選擇需要動畫的方塊先!
+window.animate.selectAnim=請先選擇一個動畫!
+
+window.newAnim.title=新建動畫
+window.newAnim.animName=動畫名稱
+window.newAnim.animLoop=此動畫是否循環
+window.editAnim.title=編輯動畫
+
+window.newAnimComp.title=新動畫組件
+window.newAnimComp.name=組件名稱
+window.newAnimComp.length=組件時長(以刻計算)
+window.editAnimComp.title=編輯動畫組件
+window.editAnimComp.startPos=組件起始刻
+
+window.editAnimCompProg.title=編輯動畫組件進度
+window.editAnimCompProg.prog=動畫進度
+window.editAnimCompProg.reset=重設
+window.editAnimCompProg.play=播放動畫
+window.editAnimCompProg.playDesc=播放動畫當你在編輯組件時?
+window.editAnimCompProg.invalid=無效的進度曲綫!
+window.editAnimCompProg.animInfo=動畫關鍵幀信息:
+
+window.selectTheme.title=選擇主題
+window.settings.title=設定
+window.settings.renderRotationPoint=渲染模型旋轉點
+
+window.autoLayout.failed=佈局材質失敗!
+
+window.metadata.title=項目元數據
+window.metadata.titleShort=元數據
+
+window.ghostModel.title=設置鬼鬼模型
+
+export.title=匯出模型
+export.failed=匯出失敗!
+export.textureMap.name=材質展開圖
+export.javaClass.title=以Java Class匯出
+export.javaClass.package=Class的包裝
+export.javaClass.name=Java Class
+export.javaClass.className=Class名稱
+export.projTexture.name=項目材質
+export.blockjson.name=JSON方塊
+export.blockjson.title=會出JSON方塊
+export.blockjson.filename=文件名稱
+export.blockjson.corner=角落方塊的位置在(0, 0) (點擊以更變)
+export.blockjson.centre=方塊中央的位置在 (0, 0) (點擊以更變)
+export.blockjson.relative=方塊模型相對著原木方塊 (點擊以更變)
+export.blockjson.absolute=方塊模型相對著 y = 0 (點擊以更變)
+
+topdock.new=新建項目
+topdock.edit=編輯項目
+topdock.open=開啓項目
+topdock.save=儲存
+topdock.saveAs=儲存在
+topdock.import=匯入項目
+topdock.importMC=從Minecraft中匯入
+topdock.export=匯出項目
+topdock.cut=剪下
+topdock.copy=複製
+topdock.paste=貼上
+topdock.pasteInPlace=在特定的位置上貼上
+topdock.pasteWithoutChildren=以沒有孩子的形式貼上
+topdock.undo=復原
+topdock.redo=重做
+topdock.chat=切換聊天欄
+topdock.addEditor=增加編輯者
+topdock.removeEditor=刪除編輯者
+topdock.themes=主題選取
+topdock.settings=設定
+topdock.info=關於這個模組
+topdock.exitTabula=離開Tabula
+topdock.wood=方塊
+topdock.woodFull=切換顯示方塊
+topdock.autoLayout=自動佈局材質
+topdock.ghostModel=設置鬼鬼模型
+topdock.openWorkingDir=開啓工作位置
+
+system.playersInSession=使用者在會議
+system.editor=編輯者
+system.host=主辦
+system.joinedSession=%s 加入了會議。
+system.leftSession=%s 離開了會議.
+system.timeout=%s 時間到.
+system.openProject=%1$s 開啓了 %2$s.
+system.isEditor=%s 有資格編輯此模型.
+system.addEditor=%1$s 已將 %2$s 設爲編輯者.
+system.removeEditor=%1$s 已使 %2$s 不是編輯者了.
+system.alreadyEditor=%s 已經是編輯者了哦.
+system.notEditor=%s 不是編輯者.
+system.cannotRemoveHost=%s 是主板的人他不能從編輯者中刪除.
+system.hosting=你正在組辦Tabula會議.
+system.hostingOther=%s 正在主辦此Tabula會議.
+system.cannotReachHost=%s (主辦) 不可用. 他們可能已經崩潰或斷綫. 請考慮在退出之前為它們保存模型.
+system.sessionEnded=%s (主辦) 已結束了會議.
+
+tabula.config.cat.multiplayer.name=多人游戲
+tabula.config.cat.others.name=其他
+
+tabula.config.cat.multiplayer.comment=Tabula會議的多人游戲設定
+tabula.config.cat.others.comment=其他實際上不適合的配置。 您可能不想接觸這些.
+
+tabula.config.prop.favTheme.name=最喜歡的主題
+tabula.config.prop.renderRotationPoint.name=渲染模型旋轉點
+tabula.config.prop.renderWorkspaceBlock.name=渲染工作區方塊
+tabula.config.prop.renderGrid.name=渲染各縣
+tabula.config.prop.renderModelControls.name=渲染模型控制
+tabula.config.prop.swapPositionOffset.name=交換 位置/抵消
+tabula.config.prop.chatSound.name=聊天聲音
+tabula.config.prop.allowEveryoneToEdit.name=讓所有人都有資格編輯
+tabula.config.prop.editors.name=允許編輯者
+tabula.config.prop.animateImports.name=動畫匯入
+tabula.config.prop.chatWindow.name=聊天欄設定
+tabula.config.prop.tooltipTime.name=工具提示時間~
+
+tabula.config.prop.favTheme.comment=Tabula界面裏最喜歡的顔色主題
+tabula.config.prop.renderRotationPoint.comment=是否應該渲染選取模型部分的旋轉點
+tabula.config.prop.renderWorkspaceBlock.comment=是否應該渲染工作區裏的方塊
+tabula.config.prop.renderGrid.comment=是否應該渲染工作區中的網格
+tabula.config.prop.renderModelControls.comment=是否應該渲染模型上的控制鍵
+tabula.config.prop.swapPositionOffset.comment=更改任何值時交換模型的位置和偏移量？
+tabula.config.prop.chatSound.comment=開啓聊天聲音?
+tabula.config.prop.allowEveryoneToEdit.comment=允許任何連接到Tabula會議的人編輯模型
+tabula.config.prop.editors.comment=人們有資格在您的多人Tabula會議中編輯模型。\ n用逗號和逗號分隔用戶名space (", " - 無引號)
+tabula.config.prop.animateImports.comment=嘗試為可能導入的模型設置動畫以修復其旋轉?
+tabula.config.prop.chatWindow.comment=玩玩啊你以爲?別觸碰這個!!!
+tabula.config.prop.tooltipTime.comment=工具提示出現的時間（以刻為單位）。
+
+tile.tabula.block.tabularasa.name=蠟片
